@@ -4,15 +4,12 @@
 
 This application allows users to upload a CSV or Excel file containing video URLs and human-readable filenames. The app uses `ffmpeg` to download and convert videos from `.mkv` or `.mp4` formats to `.mp4` format. The processed videos are stored in a specified directory. This app is designed to run on both Windows and Linux OS, but is optimized for local use on Windows machines.
 
-
-
 ## Features
 
 - **File Upload**: Upload CSV or Excel files containing video URLs and filenames.
 - **Video Processing**: Download videos using `ffmpeg` and convert them to `.mp4` format.
 - **Results Display**: View the status of each video download (success or failure) on the web interface.
 - **File Cleanup**: Automatically deletes the uploaded file after processing.
-
 
 ## Dependencies
 
@@ -40,3 +37,18 @@ To install all the necessary dependencies, run the following command:
 
 ```bash
 npm install
+```
+
+## Usage
+
+To start the application, run the following command:
+
+```bash
+npm start
+```
+
+To upload a CSV or Excel file, simply drag and drop it into the browser window.
+
+## Developer
+
+This project is maintained by [Ashutosh Sharma](https://github.com/Tech-Xposer).
