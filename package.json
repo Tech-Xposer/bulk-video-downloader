@@ -1,0 +1,20 @@
+{
+  "name": "bulk-video-downloader",
+  "version": "1.0.0",
+  "description": "The FFmpeg Video Downloader is a cross-platform application designed to help users build and manage their local video collection by downloading videos from specified URLs. Primarily optimized for Windows OS, it can also be adapted to run on Linux OS. The app is built using Node.js and Express.js and leverages FFmpeg to download and convert video files into .mp4 format, ensuring consistency across different video sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashutosh Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "ejs": "^3.1.10",
+    "express": "^4.20.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.14.2",
+    "xlsx": "^0.18.5"
+  }
+}
